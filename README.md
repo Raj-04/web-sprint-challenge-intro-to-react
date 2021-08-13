@@ -81,6 +81,19 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React JS is a User Interface Component Library. React JS was built by Facebook to help solve some major problems the team was facing when dealing with complex state.
+It is NOT a framework but only a library that does one thing really well. render UI. React is Scalable, reusable and fun to write. React is Unopinionated when it comes to how you manage your data. Everything is a component. JSX - New dog, old tricks.
+A lot of disprate data put on a webpage like facebook and that was what facebook was trying to solve on how to manage all of this data without bogging down the actual Dom at the web browser.
+
 1. Describe component state.
+
+The heart of every React component is its "state", an object that etermines how that component renders and behaves. In other words, "state" is what allows you to create components that are dynamic and interactive.
+
 1. Describe props.
+
+props(short for "properties") is a plain javascript object. It holds information that influences the output of render. Props get passed to the component (similar to function parameter). A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+A side effect is anything that affects something outside the scope of the function being executed. Fetching data from an API, timers, logging, and manually manipuating the DOM are all examples of side effects. A React component without side effects is called a pure component. A component is considered pure if it always renders the same output for the same state and props. Similarly, a side effect is something that can cause a component to return a different output for the same state and props.
