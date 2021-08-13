@@ -14,7 +14,7 @@ border: 3px solid orange;
 padding: 10px;
 font-weight: bold;
 font-size: 20px;
-background-color: black;
+background-color: brown;
 `
 
 export default function CharacterInfo(props) {
